@@ -1,20 +1,4 @@
-/**
- * This is SamJs.js v0.1.2
- *
- * A Javascript port of "SAM Software Automatic Mouth".
- *
- * (c) 2017-2020 Christian Schiffler
- *
- * @link(https://github.com/discordier/sam)
- *
- * @author 2017 Christian Schiffler <c.schiffler@cyberspectrum.de>
- */
-/**
- * Test if a bit is set.
- * @param {Number} bits The bits.
- * @param {Number} mask The mask to test.
- * @return {boolean}
- */
+
 function matchesBitmask (bits, mask) {
   return (bits & mask) !== 0;
 }
