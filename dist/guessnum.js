@@ -1,14 +1,3 @@
-/**
- * This is SamJs.js v0.1.2
- *
- * A Javascript port of "SAM Software Automatic Mouth".
- *
- * (c) 2017-2020 Christian Schiffler
- *
- * @link(https://github.com/discordier/sam)
- *
- * @author 2017 Christian Schiffler <c.schiffler@cyberspectrum.de>
- */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
   typeof define === 'function' && define.amd ? define(factory) :
